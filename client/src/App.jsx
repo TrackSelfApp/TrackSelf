@@ -1,7 +1,7 @@
 import './App.css'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Auth from './components/Auth';
+import Auth from './components/Auth/Auth';
 
 
 function App() {
