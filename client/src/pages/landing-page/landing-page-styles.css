@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.landing-page-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121418;
+}
+
+.lp-nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.lp-nav-left {
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.lp-nav-right {
+    width: 50%;
+    background-color: transparent;
+    height: 15vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5%;
+}
