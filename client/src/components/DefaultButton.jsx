@@ -1,14 +1,14 @@
 import React from 'react'
 import "./component-styles.css"
 
-function DefaultButton() {
+function DefaultButton(props) {
     function handleClick() {
-        window.location.href = "/auth";
+        window.location.href = `/${props.route}`;
     }
   return (
     <div className='default-btn' onClick={() => handleClick()}>
         <span className='gradient-cover'>
-            Access
+            {props.msg}
         </span>
     </div>
   )
